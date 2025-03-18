@@ -26,7 +26,7 @@ public:
   // overload the greater than operator
   bool operator>(const Job& other) const {
     return getPriority() > other.getPriority();
-}
+    }
 };
 
 // HeapPriorityQueue class that implements a priority queue with a max-heap as an underlying data structure using a vector
